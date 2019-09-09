@@ -1,3 +1,7 @@
+/* 
+ Inspired by the code 'WebServer' by David A. Mellis, Tom Igoe, Arturo Guadalupi
+ create by Dereck Pavez 
+ */
 #include <SPI.h>
 #include <Ethernet.h>
 #include "DHT.h"
