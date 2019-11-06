@@ -36,7 +36,6 @@
         <p>
           <a class="text-light" href="<!--Página del colegio-->"><!--Nombre del colegio--></a>
         </p>
-        </p>
       </div>
     </div>
   </div>
