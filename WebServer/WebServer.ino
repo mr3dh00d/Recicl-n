@@ -8,11 +8,11 @@
 byte mac[] = {
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
 };
-IPAddress ip(192, 168, 1, 154);
+IPAddress ip(/*IP*/);//example: ip(192, 168, 0, 1);
 EthernetServer server(80);
 byte pinData = 2;
 byte pinClk = 3;
-float factor_calibracion = -130000;
+float factor_calibracion = -130000; //Each sensor has its own calibration factor
 HX711 bascula;
 
 void setup() {
@@ -49,7 +49,7 @@ void loop() {
           client.println("<title>Peso</title>");
           client.println("</head>");
           client.println("<body>");
-          client.println("<form action=\"https://www.reciclon.tk/formulario.php\" method=\"post\">");
+          client.println("<form action=\"/*here goes the url to formulario.php*/\" method=\"post\">"); // example:  https://www.reciclon.tk/formulario.php
           client.print("<div style=\"margin-top: 10%; display: flex; justify-content: center; align-items: center;\"><h1>Peso: <input name=\"peso\" value=\"");
           client.print(bascula.get_units(), 3);
           client.println("\" style=\"width:150px;height:30px;font-size: 18pt\" readonly> Kgs</h1></div>");
