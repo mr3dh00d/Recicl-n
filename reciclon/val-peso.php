@@ -12,14 +12,14 @@ if ($material == false || empty($material) == true) {
 }else{
   switch ($material) {
     case '1':
-      $puntaje = $peso*0.1;
+      $puntaje = $peso*0.1; // Plastico 100 (100/1000)
       break;
     case '2':
-      $puntaje = $peso*0.09;
+      $puntaje = $peso*0.09; // Cartón 90 (90/1000)
 
       break;
     case '3':
-      $puntaje = $peso*0.095;
+      $puntaje = $peso*0.095; // Papel 95 (95/1000)
       break;
   }
   $puntaje = (int) $puntaje;
@@ -64,10 +64,9 @@ if (empty($errores) == true && $db == true  && isset($puntaje) == true) {
         </div>
       </div>
       <div align="center">
-        <a class="btn btn-primary text-light" href="http://192.168.1.154">Volver</a>
+        <a class="btn btn-primary text-light" href="/*Arduino Local IP*/">Volver</a>//example: http://192.168.0.1
       </div>
   </div>
   <div style="margin-top:300px"></div>
-  <?php include_once 'includes/footer.php'; ?>
-  <?php// header("Location: http://192.168.0.2"); ?>
+  <?php include_once 'includes/footer.php'; ?>  
 <?php endif; ?>
