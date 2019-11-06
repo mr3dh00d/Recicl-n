@@ -13,17 +13,18 @@
       <div class="col-md-5 col-lg-3 col-xl-2 mx-auto mb-4 mt-5 mt-lg-0">
         <h6 class="text-uppercase font-weight-bold">Desarrolladores</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px;">
+        <!--Nombres de los integrantes, blog o github-->
         <p>
-          <a class="text-light" href="#!">Josefa Toro Flores</a>
+          <a class="text-light" href="#!">Integrante 1</a>
         </p>
         <p>
-          <a class="text-light" href="#!">Javiera Toro Flores</a>
+          <a class="text-light" href="#!">Integrante 2</a>
         </p>
         <p>
-          <a class="text-light" href="https://github.com/JuanMarchant">Juan Marchant Rojas</a>
+          <a class="text-light" href="#!">Integrante 3</a>
         </p>
         <p>
-          <a class="text-light" href="https://github.com/mr3dh00d">Dereck Pavez Arias</a>
+          <a class="text-light" href="#!">Integrante 4</a>
         </p>
       </div>
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5 mt-md-0">
@@ -33,7 +34,7 @@
           <a class="text-light" href="https://www.unab.cl/">Universidad Andres Bello</a>
         </p>
         <p>
-          <a class="text-light" href="http://www.calc.cl/">Colegio Adventista de Las Condes</a>
+          <a class="text-light" href="<!--Página del colegio-->"><!--Nombre del colegio--></a>
         </p>
         </p>
       </div>
