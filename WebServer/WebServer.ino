@@ -49,7 +49,7 @@ void loop() {
           client.println("<title>Peso</title>");
           client.println("</head>");
           client.println("<body>");
-          client.println("<form action=\"/*here goes the url to formulario.php*/\" method=\"post\">"); // example:  https://www.reciclon.tk/formulario.php
+          client.println("<form action=\"https://www.reciclon.tk/formulario.php\" method=\"post\">");
           client.print("<div style=\"margin-top: 10%; display: flex; justify-content: center; align-items: center;\"><h1>Peso: <input name=\"peso\" value=\"");
           client.print(bascula.get_units(), 3);
           client.println("\" style=\"width:150px;height:30px;font-size: 18pt\" readonly> Kgs</h1></div>");
