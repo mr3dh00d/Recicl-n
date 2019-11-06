@@ -135,15 +135,3 @@ mail char(255),
 mensaje varchar(1000),
 CONSTRAINT pk_id PRIMARY KEY(id)
 );
-
-}
-$posicion = $total - $cuenta;
-if (isset($orden[$posicion])) {
-  $posicion++;
-}
-$orden[$posicion] = $array_curso;
-}
-for ($i=0; $i < count($orden); $i++) {
-var_dump($orden[$i]);
-echo " $i ".count($orden)."<br>";
-}
