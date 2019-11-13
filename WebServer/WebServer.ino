@@ -1,6 +1,7 @@
 /* 
  Inspired by the code 'WebServer' by David A. Mellis, Tom Igoe, Arturo Guadalupi. And 'SparkFun_HX711_Calibration' by Nathan Seidle of SparkFun Electronics
  create by Dereck Pavez 
+ Para encontrar el factor de calibración recomiendo el sigiente repositorio: https://github.com/sparkfun/HX711-Load-Cell-Amplifier/blob/master/firmware/SparkFun_HX711_Calibration/SparkFun_HX711_Calibration.ino.
  */
 #include <SPI.h>
 #include <Ethernet.h>
